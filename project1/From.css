@@ -1,0 +1,411 @@
+header {
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 0px 50px;
+  font-weight: 600;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+
+
+.sps2 {
+  background-color: rgba(0, 0, 0, 0.377);
+  height: 50vh;
+ }
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   color: aliceblue;
+   font-size: 20px;
+   text-decoration: none;
+   padding: 0px 30px;
+   font-weight: 800;
+}
+
+.list {
+   padding: 0px 50px;
+}
+
+a:hover {
+   color: rgb(100, 100, 100);
+}
+
+.List3 {
+   background-color: rgb(19, 19, 19);
+   height: 7vh;
+}
+
+.main a:hover {
+   color: rgb(148, 148, 148);
+}
+
+.main {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 60px;
+}
+
+.main input[type=text] {
+   padding: 6px;
+   margin-top: 8px;
+   font-size: 14px;
+   border: none;
+ }
+
+ .gg {
+  display: flex;
+  justify-content: center;
+ }
+ .main .search-container button {
+   margin-right: 16px;
+   background: #ddd;
+   font-size: 12px;
+   border: none;
+   cursor: pointer;
+ }
+
+ .main1 {
+   font-size: 20px;
+ }
+  
+ i {
+   font-size: 23px;
+   height: 28px;
+ }
+
+ h1 {
+   color: black;
+   font-size: 35px;
+   font-family: 'Anton', sans-serif;
+   font-family: 'Gowun Batang', serif;
+   font-family: 'Lora', serif;
+   font-family: 'Merriweather', serif;
+   font-family: 'Noto Serif', serif;
+   font-family: 'Roboto Slab', serif;
+   font-family: 'Rubik Burned', system-ui;
+   font-family: 'Simonetta', serif;
+   padding: 100px 50px;
+ }
+
+ .store1 {
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 50px;
+ }
+ 
+ .store1 img{
+   padding: 20px 100px;
+   box-shadow:0 0 5px rgba(0, 0, 0, 0.582);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: box-shadow, transform;
+   transition-property: box-shadow, transform;
+ }
+ 
+ .store1 img:hover {
+   color: #555;
+ }
+
+ 
+ .store3 {
+   font-size: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 130px;
+ }
+
+ .Info {
+   height: 120vh;
+ }
+
+ .video {
+   height: 120vh;
+ }
+
+ .all {
+   height: 65vh;
+ }
+
+ h2 {
+   color: rgb(0, 0, 0);
+   font-size: 33px;
+   font-family: 'Anton', sans-serif;
+   font-family: 'Gowun Batang', serif;
+   font-family: 'Lora', serif;
+   font-family: 'Merriweather', serif;
+   font-family: 'Noto Serif', serif;
+   font-family: 'Roboto Slab', serif;
+   font-family: 'Rubik Burned', system-ui;
+   font-family: 'Simonetta', serif;
+   display: flex;
+   justify-content: left;
+   padding: 10px 100px;
+ }
+
+ .store2 img{
+   padding: 20px 40px;
+   box-shadow:0 0 5px rgba(0, 0, 0, 0.582);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: box-shadow, transform;
+   transition-property: box-shadow, transform;
+ }
+
+ .store1 img:hover {
+  color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.589);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5.1.5);
+}
+
+ .store2 {
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 10px;
+ }
+
+ .store2 img:hover {
+  color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.589);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5.1.5);
+}
+
+.store5 img:hover {
+  color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.589);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5.1.5);
+}
+
+ .store5 img{
+   padding: 20px 40px;
+   box-shadow:0 0 5px rgba(0, 0, 0, 0.582);
+   -webkit-transition-duration: 0.3s;
+   transition-duration: 0.3s;
+   -webkit-transition-property: box-shadow, transform;
+   transition-property: box-shadow, transform;
+ }
+
+ .store5 {
+   font-size: 30px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 50px 10px;
+ }
+
+ .icon1:hover {
+   color: rgb(0, 68, 255);
+ }
+ 
+ .icon2:hover {
+   color: rgba(41, 255, 255, 0.795);
+ }
+ 
+ .icon3:hover {
+   color: rgba(255, 0, 0, 0.918);
+ }
+ 
+ .icon4:hover {
+   color: rgba(193, 53, 132);
+ }
+ 
+ .icon5:hover {
+   color: rgb(88, 101, 242);
+ }
+ 
+ .icon6:hover {
+   color: rgb(189, 163, 18);
+ }
+
+ .ad1 {
+   background-color: #000000d0;
+   height: 45vh;
+ }
+
+ .description {
+   background-image: url(419710260_1802676613536736_3471729116785911847_n.png);
+   height: 45vh;
+ }
+
+ .store {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 21px;
+   font-weight: 800; 
+   padding-top: 10px;
+ }
+ 
+ .store a {
+   display:flex;
+   justify-content: center;
+   color: #ffffff;
+   font-size: 18px;
+   padding: 0px 20px;
+   font-weight: 800;
+ }
+ 
+ .store p {
+   font-size: 12px;
+   color: rgb(122, 122, 122);
+   font-weight: 800;
+ }
+
+ 
+ .social {
+   color: #ffffff;
+   justify-content: right;
+   padding: 10px 20px;
+   padding-top: 100px;
+   height: 0px;
+   display: flex;
+ }
+ 
+ .social a {
+   display: flex;
+   color: #ffffff;
+   font-size: 20px;
+   padding: 2px 15px;
+ }
+
+ .links {
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 50px;
+   height: 10px;
+   font-weight: 800;
+ }
+ 
+ .links a {
+   color: #ffffff;
+   padding: 12px 50px;
+   font-size: 16px;
+   font-weight: 800;
+ }
+
+ .about {
+   display: flex;
+   justify-content: left;
+   padding: 20px 50px;
+}
+
+.end {
+   height: 6vh;
+   background-color: #111111;
+ }
+
+ .footer {
+   color: #ffffff;
+   font-size: 15;
+   padding: 4px 49px;
+   display: flex;
+   justify-content: left;
+ }
+
+ .Links nav a {
+   text-decoration: none;
+   color: #ffffff;
+   font-weight: 800;
+ }
+
+a:hover {
+  color: rgb(26, 25, 25);
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  padding: 40px 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+}
+nav a,
+nav a:after,
+nav a:before {
+  transition: all .9s;
+}
+nav a:hover {
+  color: #555;
+}
+
+
+ .banner {
+   background-image: url(baner56.png);
+   height: 40vh;
+ }
+
+ h5 {
+   color: aliceblue;
+   font-size: 45px;
+   padding: 50px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .headrs {
+  background-image: url(baner57.png);
+  height: 50vh;
+}
+
+.sps2 {
+ background-color: rgba(0, 0, 0, 0.377);
+ height: 50vh;
+}
+
+.main3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+
+ i {
+  padding: 0px 5px;
+  font-size: 20px;
+}
+
+button i {
+  padding-top: 2px;
+}
+
+button i:hover {
+  color: #555;
+}
+
+h4 {
+  color: #000000;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.des2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
