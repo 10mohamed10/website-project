@@ -1,0 +1,548 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 4vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(10, 10, 10);
+  transition: top 0.3s ease;
+}
+
+::-webkit-scrollbar {
+    scrollbar-color: red gray;
+    border-radius: 10px;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ffc400;
+    border-radius: 10px;
+    height: 50px;
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(10, 10, 10);
+    border-radius: 5px;
+}
+
+.main1 a{
+    color: aliceblue;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 70px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;}
+
+.main2 a{
+    color: aliceblue;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 90px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav a,
+nav a:after,
+nav a:before {
+  transition: all .9s;
+}
+nav a:hover {
+  color: #ffc400;
+}
+
+.nav2 a,
+.nav2 a:after,
+.nav2 a:before {
+  transition: all .9s;
+}
+.nav2 a:hover {
+  color: #555;
+}
+
+head{
+ width: 100%;
+}
+
+.profile a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 250px;
+    font-weight: 600;
+}
+
+.profile2 a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 250px;
+    font-weight: 600;
+}
+
+.banner{
+    height: 70vh;
+    background-image: url(banner22.png);
+}
+
+.bord {
+    height: 70vh;
+    background-color: #1b1b1b7c;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 24px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+.play {
+    width: 250px;
+    padding: 12px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: 600;
+    border: 5px solid #ffc400;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+    background-color: #ffc400;
+}
+
+.play:hover{
+    color: #000000;
+    box-shadow: 0 0 10px rgba(29, 29, 29, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.visit {
+  width: 250px;
+  padding: 14px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: 600;
+  border: 2px solid #ffffff9f;
+  background: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  background-color: #0a3d3d00;
+}
+
+.visit:hover {
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(29, 29, 29, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.New {
+    height: 15vh;
+}
+
+.news3 {
+    height: 85vh;
+}
+.Games {
+    height: 80vh;
+}
+.Video {
+    height: 100vh;
+}
+.endsection {
+    height: 50vh;
+    background-color: black;
+}
+.copyright {
+    height: 6vh;
+}
+
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: 29px;
+    font-weight: 700;
+    padding: 150px 150px;
+}
+
+
+
+
+.news {
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 110px;
+}
+
+.news img {
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    font-size: 20px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.news img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.news2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: 29px;
+    font-weight: 700;
+    padding: 0px 150px;
+}
+
+
+.game .img1 {
+    text-align: center;
+    margin: 0px 5px;
+    border-radius: 25px;
+    font-weight: bold;
+    background: transparent;
+    color: #000000;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    font-size: 20px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+
+.game .img1:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffc400;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration:underline;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+
+h4:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.5.1.5);
+  color: #555;
+}
+
+
+.Trailer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+h5 {
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 150px;
+}
+
+.top1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+.text4 a{
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 150px;
+    font-weight: 700;
+}
+
+.store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+p {
+    font-size: 15px;
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer p{
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 19px;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mores {
+    font-size: 18px;
+    color: aliceblue;
+    padding: 0px 200px;
+    font-weight: 700;
+}
+
+.text5 a{
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0px 180px;
+    font-weight: 700;
+}
+
+h6 {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.ends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p1 {
+    width: 390px;
+    height: 15px;
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+  }
+
+  .links {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    height: 10px;
+    font-weight: 800;
+  }
+  
+  .links a {
+    color: #ffffff;
+    padding: 12px 50px;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+
+  .social {
+    color: #ffffff;
+    justify-content: right;
+    padding: 10px 20px;
+    padding-top: 100px;
+    height: 0px;
+    display: flex;
+  }
+  
+  .social a {
+    display: flex;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 2px 15px;
+  }
+  
+  .store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 21px;
+    font-weight: 800; 
+    padding-top: 10px;
+  }
+  
+  .store a {
+    display:flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px 20px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  
+  .store p {
+    font-size: 12px;
+    color: rgb(122, 122, 122);
+    font-weight: 800;
+  }
+  
+  .des {
+    color: aliceblue;
+    font-size: 17px;
+    padding: 25px 80px;
+  }
+
+  .icon1:hover {
+    color: rgb(0, 68, 255);
+  }
+  
+  .icon2:hover {
+    color: rgba(41, 255, 255, 0.795);
+  }
+  
+  .icon3:hover {
+    color: rgba(255, 0, 0, 0.918);
+  }
+  
+  .icon4:hover {
+    color: rgba(193, 53, 132);
+  }
+  
+  .icon5:hover {
+    color: rgb(88, 101, 242);
+  }
+  
+  .icon6:hover {
+    color: rgb(189, 163, 18);
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    font-size: 15;
+    padding: 0px 150px;
+  }
+
+  i {
+    padding: 0px 5px;
+    font-size: 17.5px;
+  }
+
+
+  .viewmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  }
+
+  .storeitem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+  }
+
+  .gamebu {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cul2 {
+    display: flex;
+    flex-direction: row;
+  }
